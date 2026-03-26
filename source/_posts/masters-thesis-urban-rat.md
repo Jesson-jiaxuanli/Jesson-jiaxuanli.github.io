@@ -54,3 +54,9 @@ tags:
 - 行为学数据采集
 - 红外相机操作
 - 跨文化交流（芬兰）
+
+## Key Photos
+
+<img src="/cv/%E6%AF%95%E4%B8%9A%E8%AE%BA%E6%96%87/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260326153844_853_414.jpg" alt="Trap setup" loading="lazy">
+
+<img src="/cv/%E6%AF%95%E4%B8%9A%E8%AE%BA%E6%96%87/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260326153846_854_414.jpg" alt="Urban rat fieldwork" loading="lazy">

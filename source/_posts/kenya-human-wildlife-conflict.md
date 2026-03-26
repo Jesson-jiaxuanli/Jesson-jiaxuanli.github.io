@@ -52,3 +52,13 @@ tags:
 - 跨文化沟通能力
 - 独立解决实际问题的能力
 - 对全球保护挑战的宏观认识
+
+## Key Photos
+
+<img src="/cv/kenya/3_3_1.JPG" alt="Field observations at Mpala Research Centre" loading="lazy">
+
+<img src="/cv/kenya/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260326154735_860_414.jpg" alt="Community访谈" loading="lazy">
+
+<img src="/cv/kenya/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260326154738_861_414.jpg" alt="HWC landscape" loading="lazy">
+
+<img src="/cv/kenya/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260326154744_862_414.jpg" alt="Team field study" loading="lazy">
