@@ -89,9 +89,9 @@ Natural education became the bridge between my academic interests and my passion
 
 ## Key Photos
 
-{% asset_img 2af687215b41af71b8a4a0bec884d94f.jpg Natural education activity design %}
+<img src="/cv/nature%20education/2af687215b41af71b8a4a0bec884d94f.jpg" alt="Natural education design" loading="lazy">
 
-{% asset_img 5a4efd5e518cdd4e4d6b17283320573b.jpg Nature education practice in the field %}
+<img src="/cv/nature%20education/5a4efd5e518cdd4e4d6b17283320573b.jpg" alt="Nature education practice" loading="lazy">
 
 ### Supporting Materials
 The cv folder contains extensive supporting documents including: Utility Model Patent certificate, WeChat public account content, PBL teaching materials, project proposal and survey results, and Forestry Association membership certificate.

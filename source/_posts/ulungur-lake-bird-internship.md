@@ -50,9 +50,9 @@ I completed a one-month internship at the Ulanur Lake (乌伦古湖) National We
 
 ## Key Photos
 
-{% asset_img 微信图片_20260326153834_850_414.jpg Bird monitoring at Ulanur Lake %}
+<img src="/cv/%E4%B9%8C%E4%BC%A6%E5%8F%A4%E6%B9%96%E5%AE%9E%E4%B9%A0/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260326153834_850_414.jpg" alt="Bird monitoring" loading="lazy">
 
-{% asset_img 微信图片_20260326153841_852_414.jpg Field survey at wetland habitat %}
+<img src="/cv/%E4%B9%8C%E4%BC%A6%E5%8F%A4%E6%B9%96%E5%AE%9E%E4%B9%A0/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260326153841_852_414.jpg" alt="Wetland survey" loading="lazy">
 
 ## Skills Gained
 

@@ -62,4 +62,4 @@ My time at the NEFU Wetland Conservation Association bridged the gap between aca
 
 ## Key Photos
 
-{% asset_img 微信图片_20260326153816_847_414.jpg Wetland Conservation Association activity %}
+<img src="/cv/%E6%B9%BF%E5%9C%B0%E4%BF%9D%E6%8A%A4%E5%8D%8F%E4%BC%9A/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260326153816_847_414.jpg" alt="Wetland Conservation" loading="lazy">

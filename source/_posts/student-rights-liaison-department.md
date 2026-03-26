@@ -52,6 +52,6 @@ This three-year journey through the Student Union taught me that effective organ
 
 ## Key Photos
 
-{% asset_img 微信图片_20260326154015_855_414.jpg Student Rights & Liaison Department activities %}
+<img src="/cv/%E5%AD%A6%E7%94%9F%E4%BC%9A%E7%BA%AA%E6%A3%80%E9%83%A8/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260326154015_855_414.jpg" alt="Student Rights activities" loading="lazy">
 
-{% asset_img 微信图片_20260326154017_856_414.jpg Department head leading team meeting %}
+<img src="/cv/%E5%AD%A6%E7%94%9F%E4%BC%9A%E7%BA%AA%E6%A3%80%E9%83%A8/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260326154017_856_414.jpg" alt="Department meeting" loading="lazy">

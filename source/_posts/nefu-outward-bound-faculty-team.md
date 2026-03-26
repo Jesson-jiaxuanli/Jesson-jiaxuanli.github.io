@@ -67,10 +67,10 @@ My experience as an Outward Bound lecturer fundamentally shaped how I understand
 
 ## Key Photos
 
-{% asset_img 微信图片_20260326153830_849_414.jpg Outward Bound training activity %}
+<img src="/cv/%E7%B4%A0%E6%8B%93/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260326153830_849_414.jpg" alt="OB training" loading="lazy">
 
-{% asset_img 微信图片_20260326153838_851_414.jpg Team building exercises %}
+<img src="/cv/%E7%B4%A0%E6%8B%93/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260326153838_851_414.jpg" alt="Team building" loading="lazy">
 
-{% asset_img 微信图片_20260326154020_857_414.jpg Group facilitation and debrief %}
+<img src="/cv/%E7%B4%A0%E6%8B%93/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260326154020_857_414.jpg" alt="Facilitation" loading="lazy">
 
-{% asset_img 微信图片_20260326154148_858_414.jpg Large group activity leadership %}
+<img src="/cv/%E7%B4%A0%E6%8B%93/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260326154148_858_414.jpg" alt="Large group activity" loading="lazy">
