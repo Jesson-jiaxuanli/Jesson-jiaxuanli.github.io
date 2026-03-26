@@ -20,7 +20,7 @@ nav:
 menu:
   Home: / || fas fa-house
   Lists||fas fa-list:
-    Project Experience: /project-experience/ || fas fa-flask
+    Project Experience: /categories/Project-Experience/ || fas fa-flask
     Life Reflections: /categories/Life-Reflections/ || fas fa-feather
     Tools & Resources: /categories/Tools-Resources/ || fas fa-wrench
   Resume: /resume/ || fas fa-id-card
