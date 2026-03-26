@@ -1,0 +1,280 @@
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Jesson</title><meta name="author" content="Jiaxuan Li"><meta name="copyright" content="Jiaxuan Li"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta property="og:type" content="website">
+<meta property="og:title" content="Jesson">
+<meta property="og:url" content="https://jesson-jiaxuanli.github.io/page/2/index.html">
+<meta property="og:site_name" content="Jesson">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://jesson-jiaxuanli.github.io/img/icon-me.jpg">
+<meta property="article:author" content="Jiaxuan Li">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://jesson-jiaxuanli.github.io/img/icon-me.jpg"><script type="application/ld+json"></script><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://jesson-jiaxuanli.github.io/page/2/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: 'Copy Successful',
+    error: 'Copy Failed',
+    noSupport: 'Browser Not Supported'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: 'days',
+  dateSuffix: {
+    just: 'Just now',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: 'Load More'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Jesson',
+  isHighlightShrink: false,
+  isToc: false,
+  pageType: 'home'
+}</script><link rel="stylesheet" href="/css/custom.css"><meta name="generator" content="Hexo 7.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/icon-me.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">17</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">50</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">4</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-house"></i><span> Home</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-list"></i><span> Lists</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/categories/Project-Experience/"><i class="fa-fw fas fa-flask"></i><span> Project Experience</span></a></li><li><a class="site-page child" href="/categories/Life-Reflections/"><i class="fa-fw fas fa-feather"></i><span> Life Reflections</span></a></li><li><a class="site-page child" href="/categories/Tools-Resources/"><i class="fa-fw fas fa-wrench"></i><span> Tools &amp; Resources</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/resume/"><i class="fa-fw fas fa-id-card"></i><span> Resume</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">Jesson</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-house"></i><span> Home</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-list"></i><span> Lists</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/categories/Project-Experience/"><i class="fa-fw fas fa-flask"></i><span> Project Experience</span></a></li><li><a class="site-page child" href="/categories/Life-Reflections/"><i class="fa-fw fas fa-feather"></i><span> Life Reflections</span></a></li><li><a class="site-page child" href="/categories/Tools-Resources/"><i class="fa-fw fas fa-wrench"></i><span> Tools &amp; Resources</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/resume/"><i class="fa-fw fas fa-id-card"></i><span> Resume</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="site-info"><h1 id="site-title">Jesson</h1><div id="site-subtitle"><span id="subtitle"></span></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts nc" id="recent-posts"><div class="recent-post-items"><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2025/04/27/meta-analysis-research-methods/" title="Meta-Analysis Research Methods — 元分析研究方法">Meta-Analysis Research Methods — 元分析研究方法</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2025-04-27T11:00:00.000Z" title="Created 2025-04-27 11:00:00">2025-04-27</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Tools-Resources/">Tools-Resources</a></span></div><div class="content">Meta-Analysis Research Methods — 元分析研究方法 元分析是综合多个独立研究结果的统计方法，课程：Marcoecology and Global Change  适用领域 生态学效应量综合 保护干预效果评估 系统综述与证据合成  核心工具 metafor — R语言元分析核心包 orchaRd — 效应量可视化 ggplot2 — 图表绑定 patchwork — 多图拼接  核心概念效应量 (Effect Size) 均值差 (SMD) — 连续变量 相关系数 (r) — 关联强度 风险比 (OR) — 二分类数据 响应比 (RR) — 生态学常用  异质性检验 Q检验 — 研究间是否存在显著异质性 I² — 异质性比例（&gt;75%为高异质性） τ² — 研究间方差  模型选择 固定效应模型 (FE) — 假设所有研究估计同一真实效应 随机效应模型 (RE) — 允许效应量在研究间变化（生态学常用） 混合效应模型 — 加入调节变量  实战代码笔记基本元分析流程123456789101112131415161718192021222324libr...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2025/04/27/r-language-for-ecology/" title="R Language for Ecology — R语言生态学使用手册">R Language for Ecology — R语言生态学使用手册</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2025-04-27T10:00:00.000Z" title="Created 2025-04-27 10:00:00">2025-04-27</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Tools-Resources/">Tools-Resources</a></span></div><div class="content">R Language for Ecology — R语言生态学使用手册 R语言在生态学数据分析中的使用方法与技巧，课程：Introduction to Scientific Computing &amp; Statistical Methods  适用领域 生态学数据分析与可视化 物种分布建模 系统发育分析 种群动态建模  核心技能点R 基础 数据类型与向量操作 R包安装与加载（install.packages &#x2F; library） 函数式编程与管道操作（%&gt;%）  数据整理 (Tidyverse) read_csv() — 数据导入 dplyr：filter&#x2F;select&#x2F;mutate&#x2F;group_by&#x2F;summarise tidyr：pivot_longer&#x2F;pivot_wider left_join() — 数据连接  数据可视化 (ggplot2) 图形语法：ggplot() + aes() + geom_*() 常用图层：geom_point&#x2F;geom_line&#x2F;geom_bar&#x...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/10/01/nefu-wetland-conservation-association/" title="NEFU Wetland Conservation Association | 东北林业大学湿地保护协会">NEFU Wetland Conservation Association | 东北林业大学湿地保护协会</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-10-01T10:00:00.000Z" title="Created 2023-10-01 10:00:00">2023-10-01</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Project-Experience/">Project-Experience</a></span></div><div class="content">NEFU Wetland Conservation Association | 东北林业大学湿地保护协会 Core Member (核心成员), Sep 2022 – Oct 2023核心成员  OverviewThe NEFU Wetland Conservation Association (NEFU WCA) is a student-led organization dedicated to wetland biodiversity research, conservation advocacy, and public environmental education. As a core member, I contributed to scientific research, educational programming, and international communication initiatives that advanced the association’s mission. Key Contributions🔬 Scientific Research...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/07/01/ulungur-lake-bird-internship/" title="Bird Rehabilitation Internship — Ulungur Lake, Xinjiang | 乌伦古湖鸟类救治繁育实习">Bird Rehabilitation Internship — Ulungur Lake, Xinjiang | 乌伦古湖鸟类救治繁育实习</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-07-01T10:00:00.000Z" title="Created 2023-07-01 10:00:00">2023-07-01</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Project-Experience/">Project-Experience</a></span></div><div class="content">Bird Rehabilitation Internship — Ulungur Lake, Xinjiang | 新疆福海县乌伦古湖鸟类救治繁育站实习 Intern at the National Wetland Park Administration (Jun – Jul 2023)乌伦古湖国家级湿地公园管理局实习  OverviewI completed a one-month internship at the Ulanur Lake (乌伦古湖) National Wetland Park Administration’s Bird Rehabilitation and Breeding Station in Fuyun County, Xinjiang. This experience provided comprehensive field ecology training — from avian monitoring to wildlife rehabilitation. Field WorkBird Monitoring &amp; Census Conduc...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/06/01/student-rights-liaison-department/" title="Student Rights &amp; Liaison Department, NEFU | 学生会权益联络部">Student Rights &amp; Liaison Department, NEFU | 学生会权益联络部</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-06-01T10:00:00.000Z" title="Created 2023-06-01 10:00:00">2023-06-01</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Project-Experience/">Project-Experience</a></span></div><div class="content">Student Rights &amp; Liaison Department, NEFU | 东北林业大学学生会权益联络部 Department Member → Department Head (2020.9 – 2023.6)部员 → 部长  OverviewI served in the Student Rights &amp; Liaison Department (formerly known as the Discipline Inspection Department) of the College Student Union at Northeast Forestry University for three years, progressing from a regular member to department head. This experience gave me extensive practical training in organizational management, institutional rule enforcement, and...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2022/11/15/nefu-outward-bound-faculty-team/" title="NEFU Outward Bound Faculty Team | 东北林业大学素质拓展讲师团">NEFU Outward Bound Faculty Team | 东北林业大学素质拓展讲师团</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2022-11-15T10:00:00.000Z" title="Created 2022-11-15 10:00:00">2022-11-15</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Project-Experience/">Project-Experience</a></span></div><div class="content">NEFU Outward Bound Faculty Team | 东北林业大学素质拓展讲师团 15th Generation Lecturer (第十五代讲师), Nov 2022 – Present第十五代讲师  OverviewThe NEFU Outward Bound Faculty Team (NEFU OBFT), established in 2006, is one of the university’s most prestigious student organizations. The team’s motto — “Hone the Will, Build the Team, Unleash Potential, Transcend the Self” — reflects its mission to deliver experiential education and team-building programs. The selection process is extremely competitive: from hundreds of ann...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2022/05/01/natural-education/" title="Natural Education Projects | 自然教育实践">Natural Education Projects | 自然教育实践</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2022-05-01T10:00:00.000Z" title="Created 2022-05-01 10:00:00">2022-05-01</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Project-Experience/">Project-Experience</a></span></div><div class="content">Natural Education Projects | 自然教育实践 Project Leader, National Innovation &amp; Entrepreneurship Training Program (2022.5 – 2023.5)项目负责人  OverviewI have been deeply involved in natural education through China’s National Innovation &amp; Entrepreneurship Training Program, designing educational tools, building community platforms, and publishing research. My work has been recognized at the national level, with awards, patents, and publications in both education and design. Project 1: “Nature Stor...</div></div></div></div><nav id="pagination"><div class="pagination"><a class="extend prev" rel="prev" href="/"><i class="fas fa-chevron-left fa-fw"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/icon-me.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">Jiaxuan Li</div><div class="author-info-description"></div><div class="site-data"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">17</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">50</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">4</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://www.instagram.com/leejxuan250?igsh=M2s2dGF0a3VoaWZu&amp;utm_source=qr"><i class="fab fa-instagram"></i><span>Follow on Instagram</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>Announcement</span></div><div class="announcement_content">The application season is coming!!</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Posts</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/04/08/masters-thesis-urban-rat/" title="Master's Thesis — Urban Rat Project | 硕士毕业论文">Master's Thesis — Urban Rat Project | 硕士毕业论文</a><time datetime="2026-04-08T10:00:00.000Z" title="Created 2026-04-08 10:00:00">2026-04-08</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/03/26/hello-world/" title="Welcome to my world | 欢迎来到我的世界">Welcome to my world | 欢迎来到我的世界</a><time datetime="2026-03-26T15:23:46.662Z" title="Created 2026-03-26 15:23:46">2026-03-26</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/01/20/kenya-human-wildlife-conflict/" title="Field Study on Human-Wildlife Conflict in Kenya | 肯尼亚人兽冲突实地考察">Field Study on Human-Wildlife Conflict in Kenya | 肯尼亚人兽冲突实地考察</a><time datetime="2026-01-20T10:00:00.000Z" title="Created 2026-01-20 10:00:00">2026-01-20</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/01/06/plant-voc-internship/" title="Research Assistant — Rhythms of Plant VOCs | 植物挥发物实习">Research Assistant — Rhythms of Plant VOCs | 植物挥发物实习</a><time datetime="2026-01-06T10:00:00.000Z" title="Created 2026-01-06 10:00:00">2026-01-06</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/09/01/meta2data/" title="Meta2Data — 元数据整合分析项目">Meta2Data — 元数据整合分析项目</a><time datetime="2025-09-01T10:00:00.000Z" title="Created 2025-09-01 10:00:00">2025-09-01</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>Categories</span>
+            
+          </div>
+          <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Life-Reflections/"><span class="card-category-list-name">Life-Reflections</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Personal-Journey/"><span class="card-category-list-name">Personal-Journey</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Project-Experience/"><span class="card-category-list-name">Project-Experience</span><span class="card-category-list-count">9</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Tools-Resources/"><span class="card-category-list-name">Tools-Resources</span><span class="card-category-list-count">5</span></a></li>
+          </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>Tags</span></div><div class="card-tag-cloud"><a href="/tags/Biodiversity/" style="font-size: 1.1em; color: #999">Biodiversity</a> <a href="/tags/Intro/" style="font-size: 1.5em; color: #99a9bf">Intro</a> <a href="/tags/Modeling/" style="font-size: 1.1em; color: #999">Modeling</a> <a href="/tags/Rats/" style="font-size: 1.1em; color: #999">Rats</a> <a href="/tags/Human-Wildlife-Conflict/" style="font-size: 1.1em; color: #999">Human-Wildlife Conflict</a> <a href="/tags/Innovation-Entrepreneurship/" style="font-size: 1.1em; color: #999">Innovation & Entrepreneurship</a> <a href="/tags/ArcGIS/" style="font-size: 1.1em; color: #999">ArcGIS</a> <a href="/tags/Plant-VOCs/" style="font-size: 1.1em; color: #999">Plant VOCs</a> <a href="/tags/GIS/" style="font-size: 1.1em; color: #999">GIS</a> <a href="/tags/Field-Internship/" style="font-size: 1.1em; color: #999">Field Internship</a> <a href="/tags/Research-Assistant/" style="font-size: 1.1em; color: #999">Research Assistant</a> <a href="/tags/Ulungur-Lake/" style="font-size: 1.1em; color: #999">Ulungur Lake</a> <a href="/tags/Evidence-Synthesis/" style="font-size: 1.1em; color: #999">Evidence Synthesis</a> <a href="/tags/Urban-Ecology/" style="font-size: 1.1em; color: #999">Urban Ecology</a> <a href="/tags/GLM/" style="font-size: 1.1em; color: #999">GLM</a> <a href="/tags/Student-Union/" style="font-size: 1.1em; color: #999">Student Union</a> <a href="/tags/Wetland-Conservation/" style="font-size: 1.1em; color: #999">Wetland Conservation</a> <a href="/tags/NEFU/" style="font-size: 1.1em; color: #999">NEFU</a> <a href="/tags/Conservation/" style="font-size: 1.1em; color: #999">Conservation</a> <a href="/tags/Statistics/" style="font-size: 1.3em; color: #99a1ac">Statistics</a> <a href="/tags/Bayesian/" style="font-size: 1.1em; color: #999">Bayesian</a> <a href="/tags/Kenya/" style="font-size: 1.1em; color: #999">Kenya</a> <a href="/tags/Natural-Education/" style="font-size: 1.1em; color: #999">Natural Education</a> <a href="/tags/Xinjiang/" style="font-size: 1.1em; color: #999">Xinjiang</a> <a href="/tags/Organizational-Management/" style="font-size: 1.1em; color: #999">Organizational Management</a> <a href="/tags/Data-Analysis/" style="font-size: 1.1em; color: #999">Data Analysis</a> <a href="/tags/Wildlife-Rehabilitation/" style="font-size: 1.1em; color: #999">Wildlife Rehabilitation</a> <a href="/tags/Bird-Conservation/" style="font-size: 1.1em; color: #999">Bird Conservation</a> <a href="/tags/Meta-Analysis/" style="font-size: 1.3em; color: #99a1ac">Meta-Analysis</a> <a href="/tags/Pedagogy/" style="font-size: 1.1em; color: #999">Pedagogy</a> <a href="/tags/Data-Integration/" style="font-size: 1.1em; color: #999">Data Integration</a> <a href="/tags/Field-Study/" style="font-size: 1.1em; color: #999">Field Study</a> <a href="/tags/Leadership/" style="font-size: 1.3em; color: #99a1ac">Leadership</a> <a href="/tags/Environmental-Education/" style="font-size: 1.1em; color: #999">Environmental Education</a> <a href="/tags/Team-Building/" style="font-size: 1.1em; color: #999">Team Building</a> <a href="/tags/Behavioral-Ecology/" style="font-size: 1.1em; color: #999">Behavioral Ecology</a> <a href="/tags/CSIC/" style="font-size: 1.1em; color: #999">CSIC</a> <a href="/tags/Spatial-Analysis/" style="font-size: 1.1em; color: #999">Spatial Analysis</a> <a href="/tags/Chemical-Ecology/" style="font-size: 1.1em; color: #999">Chemical Ecology</a> <a href="/tags/Remote-Sensing/" style="font-size: 1.1em; color: #999">Remote Sensing</a></div></div><div class="card-widget card-archives">
+    <div class="item-headline">
+      <i class="fas fa-archive"></i>
+      <span>Archives</span>
+      <a class="card-more-btn" href="/archives/"
+            title="View More">
+            <i class="fas fa-angle-right"></i>
+          </a>
+    </div>
+  
+    <ul class="card-archive-list">
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2026/04/">
+            <span class="card-archive-list-date">
+              April 2026
+            </span>
+            <span class="card-archive-list-count">1</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2026/03/">
+            <span class="card-archive-list-date">
+              March 2026
+            </span>
+            <span class="card-archive-list-count">1</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2026/01/">
+            <span class="card-archive-list-date">
+              January 2026
+            </span>
+            <span class="card-archive-list-count">2</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2025/09/">
+            <span class="card-archive-list-date">
+              September 2025
+            </span>
+            <span class="card-archive-list-count">1</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2025/08/">
+            <span class="card-archive-list-date">
+              August 2025
+            </span>
+            <span class="card-archive-list-count">5</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2025/04/">
+            <span class="card-archive-list-date">
+              April 2025
+            </span>
+            <span class="card-archive-list-count">2</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2023/10/">
+            <span class="card-archive-list-date">
+              October 2023
+            </span>
+            <span class="card-archive-list-count">1</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2023/07/">
+            <span class="card-archive-list-date">
+              July 2023
+            </span>
+            <span class="card-archive-list-count">1</span>
+          </a>
+        </li>
+      
+    </ul>
+  </div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>Website Info</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">Article Count :</div><div class="item-count">17</div></div><div class="webinfo-item"><div class="item-name">Runtime :</div><div class="item-count" id="runtimeshow" data-publishDate="2025-08-10T13:14:20.000Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">Unique Visitors :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">Page Views :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">Last Update :</div><div class="item-count" id="last-push-date" data-lastPushDate="2026-03-26T15:24:00.770Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2025 - 2026 By Jiaxuan Li</span><span class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 7.3.0</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.5.4</a></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="Toggle Between Light and Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle Between Single-column and Double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="Settings"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="Back to Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><div class="js-pjax"><script>window.typedJSFn = {
+  init: str => {
+    window.typed = new Typed('#subtitle', Object.assign({
+      strings: str,
+      startDelay: 300,
+      typeSpeed: 150,
+      loop: true,
+      backSpeed: 50,
+    }, null))
+  },
+  run: subtitleType => {
+    if (true) {
+      if (typeof Typed === 'function') {
+        subtitleType()
+      } else {
+        btf.getScript('https://cdn.jsdelivr.net/npm/typed.js/dist/typed.umd.min.js').then(subtitleType)
+      }
+    } else {
+      subtitleType()
+    }
+  },
+  processSubtitle: (content, extraContents = []) => {
+    if (true) {
+      const sub = ["Hi, I’m Jiaxuan (Jesson) — Ecology & Evolution @ UHelsinki","大家好我是李嘉轩我喜欢唱跳rap篮球,我是个聪明人"].slice()
+
+      if (extraContents.length > 0) {
+        sub.unshift(...extraContents)
+      }
+
+      if (typeof content === 'string') {
+        sub.unshift(content)
+      } else if (Array.isArray(content)) {
+        sub.unshift(...content)
+      }
+
+      sub.length > 0 && typedJSFn.init(sub)
+    } else {
+      document.getElementById('subtitle').textContent = typeof content === 'string' ? content :
+        (Array.isArray(content) && content.length > 0 ? content[0] : '')
+    }
+  }
+}
+btf.addGlobalFn('pjaxSendOnce', () => { typed.destroy() }, 'typedDestroy')
+</script><script>function subtitleType () {
+  typedJSFn.processSubtitle(["Hi, I’m Jiaxuan (Jesson) — Ecology & Evolution @ UHelsinki","大家好我是李嘉轩我喜欢唱跳rap篮球,我是个聪明人"])
+}
+typedJSFn.run(subtitleType)</script></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
