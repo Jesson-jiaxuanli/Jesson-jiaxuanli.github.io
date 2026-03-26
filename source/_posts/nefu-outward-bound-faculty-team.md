@@ -65,4 +65,12 @@ I designed and led approximately **20 team-building activities** across various 
 
 My experience as an Outward Bound lecturer fundamentally shaped how I understand team dynamics and experiential learning. The rigorous selection process taught me resilience; the mentorship role taught me patience and teaching; and the 20+ activities I led gave me confidence in facilitation and public engagement. These skills directly transfer to my research career — particularly in cross-cultural collaboration, presenting complex information to diverse audiences, and building collaborative team environments.
 
-<!-- Images will be added from cv folder -->
+## Key Photos
+
+{% asset_img 微信图片_20260326153830_849_414.jpg Outward Bound training activity %}
+
+{% asset_img 微信图片_20260326153838_851_414.jpg Team building exercises %}
+
+{% asset_img 微信图片_20260326154020_857_414.jpg Group facilitation and debrief %}
+
+{% asset_img 微信图片_20260326154148_858_414.jpg Large group activity leadership %}

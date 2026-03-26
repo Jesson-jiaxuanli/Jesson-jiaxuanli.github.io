@@ -87,4 +87,11 @@ I have been deeply involved in natural education through China's National Innova
 
 Natural education became the bridge between my academic interests and my passion for public engagement. Through designing educational tools, leading field programs, and publishing research, I learned that effective science communication requires not just knowledge but creativity and empathy. The rainfall simulator patent exemplifies this — transforming a complex hydrological concept into a tangible classroom experience. These experiences shaped my commitment to making science accessible and actionable, a philosophy I carry into my ecological research career.
 
-<!-- Images will be added from cv folder -->
+## Key Photos
+
+{% asset_img 2af687215b41af71b8a4a0bec884d94f.jpg Natural education activity design %}
+
+{% asset_img 5a4efd5e518cdd4e4d6b17283320573b.jpg Nature education practice in the field %}
+
+### Supporting Materials
+The cv folder contains extensive supporting documents including: Utility Model Patent certificate, WeChat public account content, PBL teaching materials, project proposal and survey results, and Forestry Association membership certificate.

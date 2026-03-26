@@ -60,4 +60,6 @@ The NEFU Wetland Conservation Association (NEFU WCA) is a student-led organizati
 
 My time at the NEFU Wetland Conservation Association bridged the gap between academic research and public engagement. The Red Book project taught me the importance of systematic biodiversity documentation, while the nature education activities showed me the power of hands-on learning in fostering environmental awareness. The Beidahuang Daily feature validated our work's impact beyond the university, and the international exchange broadened my perspective on global conservation collaboration. This experience laid the foundation for my later research in ecology and my commitment to science communication.
 
-<!-- Images will be added from cv folder -->
+## Key Photos
+
+{% asset_img 微信图片_20260326153816_847_414.jpg Wetland Conservation Association activity %}

@@ -50,4 +50,8 @@ I served in the Student Rights & Liaison Department (formerly known as the Disci
 
 This three-year journey through the Student Union taught me that effective organizational management is not just about following rules — it's about building trust and maintaining communication channels between different stakeholders. As department head, I learned to balance institutional accountability with student welfare, which gave me valuable insights into leadership and conflict resolution that I continue to apply in my academic and research work.
 
-<!-- Images will be added from cv folder -->
+## Key Photos
+
+{% asset_img 微信图片_20260326154015_855_414.jpg Student Rights & Liaison Department activities %}
+
+{% asset_img 微信图片_20260326154017_856_414.jpg Department head leading team meeting %}
